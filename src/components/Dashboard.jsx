@@ -21,7 +21,7 @@ const Dashboard = () => {
               className="absolute w-20 h-20 md:w-[168px] md:h-[168px]"
             />
           </div>
-          <div className="flex flex-col lg:flex-row px-2 md:px-8 lg:px-2 xl:px-24 justify-between w-full mt-12 md:mt-24">
+          <div className="flex flex-col lg:flex-row px-2 md:px-8 lg:px-2 xl:px-[86px] justify-between w-full mt-12 md:mt-24">
             <div className=" lg:w-1/2 xl:w-3/4 mb-10 ">
               <h2 className=" text-2xl md:text-[40px] leading-10 text-[#292929] ">
                 Adam-son Store
@@ -38,7 +38,7 @@ const Dashboard = () => {
               <div>
                 <button
                   id="btn"
-                  className="px-6 py-3 border border-[#8113DD] w-full rounded-[99px] mb-3 md:mb-0 mr-2 text-[#292929] font-medium text-sm"
+                  className="px-6 py-3 border border-[#8113DD] w-full md:w-11/12  rounded-[99px] mb-3 md:mb-0 md:mr-5 text-[#292929] font-medium text-sm"
                 >
                   Edit storefront
                 </button>
@@ -46,7 +46,7 @@ const Dashboard = () => {
               <div>
                 <button
                   id="btn"
-                  className="px-6 py-3 bg-[#8113DD] rounded-[99px] w-full  text-[#ffffff] font-medium text-sm"
+                  className="px-6 py-3 bg-[#8113DD] rounded-[99px] w-full   text-[#ffffff] font-medium text-sm"
                 >
                   Add product
                 </button>
